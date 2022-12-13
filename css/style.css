@@ -1,3 +1,79 @@
-#wrapper {
+#wrapper1 {
+    display: grid;
     background-color: aliceblue;
+    min-height: 90vh;
+    margin: auto;
+    gap: 10px;
+    grid-template-areas: 
+    "hd hd hd"
+    "nv nv nv"
+    "s1 s1 as"
+    "fd fd fd";
+}
+#wrapper2 {
+    display: grid;
+    background-color: aliceblue;
+    min-height: 90vh;
+    margin: auto;
+    gap: 10px;
+    grid-template-areas: 
+    "hd hd hd"
+    "nv nv nv"
+    "s2 s2 s2"
+    "s3 s3 s3"
+    "s4 s4 s4"
+    "s5 s5 s5"
+    "s6 s6 s6"
+    "fd fd fd";
+}
+
+header {
+    background-color: rgb(99, 137, 171);
+    grid-area: hd;
+}
+nav {
+    background-color: rgb(48, 135, 40);
+    grid-area: nv;
+}
+aside {
+    background-color: rgb(87, 139, 87);
+    grid-area: as;
+}
+
+#section1 {
+    background-color: rgb(96, 132, 164);
+    grid-area: s1;
+}
+.section2 {
+    background-color: rgb(96, 132, 164);
+    grid-area: s2;
+}
+.section3 {
+    background-color: rgb(96, 132, 164);
+    grid-area: s3;
+}
+.section4 {
+    background-color: rgb(96, 132, 164);
+    grid-area: s4;
+}
+.section5 {
+    background-color: rgb(96, 132, 164);
+    grid-area: s5;
+}
+.section6 {
+    background-color: rgb(96, 132, 164);
+    grid-area: s6;
+}
+footer {
+    background-color: rgb(22, 129, 43);
+    grid-area: fd;
+}
+
+.left img {
+    width: 15%;
+    float:left;
+}
+.right img {
+    width: 15%;
+    float: right;
 }
