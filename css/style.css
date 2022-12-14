@@ -23,7 +23,6 @@
     "s3 s3 s3"
     "s4 s4 s4"
     "s5 s5 s5"
-    "s6 s6 s6"
     "fd fd fd";
 }
 
@@ -47,22 +46,26 @@ aside {
 .section2 {
     background-color: rgb(96, 132, 164);
     grid-area: s2;
+    border-radius: 10px;
+    padding: 10px;
 }
 .section3 {
     background-color: rgb(96, 132, 164);
     grid-area: s3;
+    border-radius: 10px;
+    padding: 10px;
 }
 .section4 {
     background-color: rgb(96, 132, 164);
     grid-area: s4;
+    border-radius: 10px;
+    padding: 10px;
 }
 .section5 {
     background-color: rgb(96, 132, 164);
     grid-area: s5;
-}
-.section6 {
-    background-color: rgb(96, 132, 164);
-    grid-area: s6;
+    border-radius: 10px;
+    padding: 10px;
 }
 footer {
     background-color: rgb(22, 129, 43);
@@ -72,8 +75,11 @@ footer {
 .left img {
     width: 15%;
     float:left;
+    border-radius: 7px;
+    margin-right: 7px;
 }
 .right img {
     width: 15%;
     float: right;
+    border-radius: 7px;
 }
