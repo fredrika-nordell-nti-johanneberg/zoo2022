@@ -1,13 +1,14 @@
 #wrapper1 {
     display: grid;
     background-color: aliceblue;
-    min-height: 90vh;
+    min-height: 100vh;
+    width: 100%;
     margin: auto;
     gap: 10px;
     grid-template-areas: 
     "hd hd hd"
     "nv nv nv"
-    "s1 s1 as"
+    "s1 s1 s1"
     "fd fd fd";
 }
 #wrapper2 {
@@ -33,10 +34,6 @@ header {
 nav {
     background-color: rgb(48, 135, 40);
     grid-area: nv;
-}
-aside {
-    background-color: rgb(87, 139, 87);
-    grid-area: as;
 }
 
 #section1 {
@@ -70,6 +67,11 @@ aside {
 footer {
     background-color: rgb(22, 129, 43);
     grid-area: fd;
+}
+#floater {
+    position: fixed;
+    width:10vw;
+    right: 10vw;
 }
 
 .left img {
