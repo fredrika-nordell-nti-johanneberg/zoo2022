@@ -26,19 +26,41 @@
     "s5 s5 s5"
     "fd fd fd";
 }
+#wrapper3 {
+    display: grid;
+    background-color: aliceblue;
+    min-height: 90vh;
+    margin: auto;
+    gap: 10px;
+    grid-template-areas:
+    "hd"
+    "nv"
+    "s6"
+    "fd" ;
+}
 
 header {
     background-color: rgb(99, 137, 171);
     grid-area: hd;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
 }
 nav {
-    background-color: rgb(48, 135, 40);
+    background-color: rgb(99, 137, 171);
     grid-area: nv;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
 #section1 {
     background-color: rgb(96, 132, 164);
     grid-area: s1;
+    border-radius: 10px;
+    padding: 10px;
 }
 .section2 {
     background-color: rgb(96, 132, 164);
@@ -64,24 +86,34 @@ nav {
     border-radius: 10px;
     padding: 10px;
 }
-footer {
-    background-color: rgb(22, 129, 43);
-    grid-area: fd;
+.section6 {
+    background-color:rgb(96, 132, 164);
+    grid-area: s6;
+    border-radius: 10px;
+    padding: 10px;
 }
-#floater {
-    position: fixed;
-    width:10vw;
-    right: 10vw;
+footer {
+    background-color: rgb(96, 132, 164);
+    grid-area: fd;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .left img {
-    width: 15%;
+    width: 25%;
     float:left;
-    border-radius: 7px;
-    margin-right: 7px;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 .right img {
-    width: 15%;
+    width: 25%;
     float: right;
-    border-radius: 7px;
+    border-radius: 10px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+#facebook {
+    text-decoration: underline;
 }
