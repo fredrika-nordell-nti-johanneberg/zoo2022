@@ -36,6 +36,7 @@
     "hd"
     "nv"
     "s6"
+    "s7"
     "fd" ;
 }
 
@@ -94,7 +95,7 @@ nav {
 }
 .section7 {
     background-color:rgb(96, 132, 164);
-    grid-area: s6;
+    grid-area: s7;
     border-radius: 10px;
     padding: 10px;
 }
@@ -110,11 +111,18 @@ footer {
     float:left;
     border-radius: 10px;
     margin-right: 10px;
+    
 }
 .right img {
     width: 25%;
     float: right;
     border-radius: 10px;
+}
+.imggrow { 
+    transition: 0,4s;
+}
+.imggrow:hover{
+    width: 28%;
 }
 a {
     color: black;
